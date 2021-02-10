@@ -4,6 +4,7 @@
     <title>Index</title>
 </head>
 <body>
-<h1>Wow</h1>
+<h1>Hello</h1>
+<jsp:forward page="/controller"/>
 </body>
 </html>
