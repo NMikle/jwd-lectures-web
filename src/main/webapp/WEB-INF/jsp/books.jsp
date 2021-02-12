@@ -10,7 +10,7 @@
     <h2>Columns</h2>
     <ul>
         <c:forEach var="book" items="${requestScope.books}">
-            <li>${book.name}</li>
+            <li>${book.name} published on ${book.year}</li>
         </c:forEach>
     </ul>
 </c:if>

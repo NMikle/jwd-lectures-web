@@ -1,4 +1,8 @@
-package com.epam.jwd.servlet.command;
+package com.epam.jwd.servlet.command.page;
+
+import com.epam.jwd.servlet.command.Command;
+import com.epam.jwd.servlet.command.RequestContext;
+import com.epam.jwd.servlet.command.ResponseContext;
 
 public enum ShowMainPageCommand implements Command {
     INSTANCE;
